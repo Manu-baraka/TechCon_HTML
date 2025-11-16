@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechCON</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Event Schedule</h2>
+        <a href="mailto:email@example.com">Contact Us via Email</a>
+        <a href="https://www.techcon.com/contact">Contact Us via Website</a>
+
+        <iframe src="https://www.techcon.com/schedule" width="600" height="400">
+            Your browser does not support iframes.
+        </iframe>
+
+        <h2>Contact Us Form</h2>
+        <form action="/submit_contact" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            
+            <button type="submit" value="Submit">Send Message</button>
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
